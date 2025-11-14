@@ -1,0 +1,65 @@
+# Environment variables
+.env
+.env.template
+
+# Temporary and debug files
+temp/
+logs/
+outputs/
+debug_*.txt
+temp_*.jpg
+temp_*.png
+temp_*.jpeg
+
+# Large sample files (exclude large DICOM files but keep structure)
+samples/**/*.dcm
+samples/**/*.dicom
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# VSCodeCounter
+.VSCodeCounter/
+
+# Documentation (optional - uncomment files you don't want to push)
+DEPLOYMENT_GUIDE.md
+IMPLEMENTATION_PLAN.md
+ARCHITECTURE.md
+debug_full.txt
+debug_output.txt
+
+# Word/Excel temporary files
+~$*.docx
+~$*.xlsx

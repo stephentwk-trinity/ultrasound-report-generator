@@ -1,0 +1,119 @@
+Example 1:
+
+**BILATERAL 2D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS**
+
+**CLINICAL INFORMATION**
+Rt shoulder pain. Breast lump.
+
+**FINDINGS**
+Reference is made with the previous ultrasound breasts dated 09 August 2023.
+
+**Mammogram**
+Digital mammography of bilateral breasts in cranio-caudal (CC) and medio-lateral oblique (MLO) views are performed, with a supplementary magnified view in right ML projection.
+
+The breasts are heterogeneously dense, which may obscure small masses.
+A group of punctate and amorphous microcalcifications is seen at the upper outer quadrant of right breast, about 1.8 cm in total span. No suspicious spiculated mass or architectural distortion is associated. Findings are of low suspicion and may still be related to fibrocystic changes, but tomosynthesis-guided vacuum-assisted biopsy (VAB) is to be considered for further evaluation.
+
+A 0.8 cm well-circumscribed low-density nodule is seen just posterior to the aforementioned microcalcifications, likely corresponding to one of the nodules on ultrasound.
+Several punctate microcalcifications are also seen scattered in the rest of both breasts, benign.
+No definite focal mass or architectural distortion is shown.
+No nipple retraction or skin thickening.
+No suspicious or enlarged axillary lymph node.
+
+**Ultrasound of Both Breasts**
+Heterogeneous background echotexture.
+
+Several well-circumscribed oval hypoechoic nodules are now seen in both breasts. They appear parallel to the skin and show no intra-lesional vascularity or distal shadowing. Some of them show posterior acoustic enhancement. These are probably benign and could represent thick-content cysts. DDx includes fibroadenomata or fibroadenosis. The details are as below:
+- R9H 2cm FN: 0.72 x 0.63 x 0.59cm
+- R9H 3cm FN: 0.66 x 0.48 x 0.60cm
+- R12H 3cm FN: 0.45 x 0.38 x 0.45cm
+- L3H 3cm FN: 0.68 x 0.36 x 0.47cm
+- L9H 2cm FN: 0.39 x 0.28 x 0.65cm
+
+Mildly prominent lactiferous ducts are again noted over bilateral subareolar regions, measuring up to 0.41cm in calibre. No suspicious intra-ductal lesion is seen. Findings are likely benign and can represent mild changes of mammary duct ectasia.
+
+A 0.18cm simple anechoic cyst is noted in left breast 9 o'clock 4cm from the nipple.
+No overt distortion of the normal breast architecture is demonstrated.
+Nipples appear unremarkable and are not retracted.
+No suspicious axillary lymphadenopathy is seen in bilateral axillae.
+
+**COMMENTS**
+BI-RADS Category 3 for left breast; BI-RADS Category 4A for right breast.
+- A group of punctate and amorphous microcalcifications is seen at the upper outer quadrant of right breast. Findings are of low suspicion and may still be related to fibrocystic changes, but tomosynthesis-guided vacuum-assisted biopsy (VAB) is to be considered for further evaluation.
+(BI-RADS 4A)
+- Several punctate microcalcifications are also seen scattered in the rest of both breasts, benign.
+(BI-RADS 2)
+- Several well-circumscribed oval hypoechoic nodules (0.72 cm) in both breasts, probably benign and could represent thick-content cysts. Follow-up ultrasound in 6 months would be helpful for monitoring. (BI-RADS 3)
+- Mild bilateral mammary duct ectasia. (BI-RADS 2)
+- A left breast cyst (0.18cm). (BI-RADS 2)
+
+Thank you for your referral.
+
+
+Example 2:
+
+**DIGITAL 3D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS**
+
+**CLINICAL INFORMATION**
+Ms. Lai complained of left mastalgia and US today showed 0.6 x 0.5 x 0.5cm hypoechoic lesion at L2H 3cm FN with echogenicity inside. Pls provide 3D MMG/US breasts and US guided FNAC for L2H breast mass for her.
+
+**FINDINGS**
+**Mammogram**
+3D digital tomosynthesis with synthesized 2D C-View in cranio-caudal (CC) and medio-lateral oblique (MLO) views of both breasts are performed.
+
+The breasts are heterogeneously dense, which may obscure small masses.
+
+Benign scattered macro- and microcalcifications are seen in both breasts.
+
+No definite focal mass, architectural distortion or suspicious microcalcification is shown.
+No nipple retraction or skin thickening.
+No enlarged axillary lymph node.
+
+**Ultrasound of Both Breasts**
+Heterogeneous background echotexture.
+
+A well-defined complex cyst measuring 0.79 x 0.43 x 0.61cm with a low-level internal component of 0.3 x 0.2cm is seen in the left breast 2 o'clock 3cm from the nipple. No vascularity is seen upon Doppler interrogation. Findings are of low suspicion for malignancy. An ultrasound-guided FNAc was done on the same day for further evaluation.
+
+Two simple anechoic cysts are seen in right breast measuring 0.30cm (R12H) and 0.36cm
+(R10H), respectively.
+
+No overt distortion of the normal breast architecture is demonstrated.
+Nipples appear unremarkable and are not retracted.
+No suspicious axillary lymphadenopathy is seen in bilateral axillae.
+
+**COMMENTS**
+BI-RADS Category 2 for right breast; BI-RADS Category 4a for left breast.
+- L2H complex cyst. Findings are of low suspicion for malignancy. An ultrasound-guided FNAc was done on the same day for further evaluation. (BI-RADS 4A)
+- Right breast cysts (up to 0.36cm). (BI-RADS 2)
+- Benign macro and microcalcifications in both breasts. (BI-RADS 2)
+
+Thank you for your referral.
+
+
+Example 3:
+
+**ULTRASOUND OF BOTH BREASTS**
+
+**CLINICAL INFORMATION**
+BIRADS 3 USG breast Feb 2025
+
+**FINDINGS**
+Reference is made with previous scan dated 26 July 2024.
+
+Heterogeneous background echotexture.
+
+A well-circumscribed hypoechoic nodule is again seen at the right breast 12 o'clock 1cm from nipple, measuring 0.3 x 0.1 x 0.4cm (prev size: 0.4cm, similar) in size. It shows no intra-lesional vascularity or distal shadowing. This is probably benign and could represent an inspissated cyst or fibroadenosis.
+A few anechoic cysts are seen in the bilateral breast, measuring up to 0.6cm.
+
+No overt distortion of the normal breast architecture is demonstrated.
+
+Nipples appear unremarkable and are not retracted.
+
+No suspicious axillary lymphadenopathy is seen in bilateral axillae.
+
+**COMMENTS**
+BI-RADS Category 2 for left breast; BI-RADS Category 3 for right breast. Suggest interval follow-up scan in 12 months for monitoring.
+- R12H small hypoechoic nodule (0.4cm) appears similar c.f. 2024, probably benign. (BI-RADS 3)
+- Bilateral breast cysts (up to 0.6cm), benign. (BI-RADS 2)
+
+Thank you for your referral.

@@ -1,0 +1,649 @@
+[
+  {
+    "id": "template_001",
+    "name": "ULTRASOUND SCAN OF LIVER",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Hepatic outline is smooth. The liver is of normal size ( cm) and echotexture. No focal hepatic lesion detected.\nHepatic outline is smooth. The liver is of normal size ( cm) at mid-clavicular line. Mild/Moderate/Severe fatty infiltration is noted. No focal hepatic lesion detected.\nThe portal vein is patent with normal hepatopetal flow.\nIntrahepatic ducts are not dilated.",
+      "COMMENTS": "Mild/Moderate/Severe fatty liver.\nNormal ultrasound study of the liver. No focal hepatic mass is detected."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_002",
+    "name": "ULTRASOUND SCAN OF LIVER, GALLBLADDER AND BILIARY SYSTEM",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Hepatic outline is smooth. The liver is of normal size ( cm) and echotexture. No focal hepatic lesion detected. The portal vein is patent with normal hepatopetal flow.\nHepatic outline is smooth. The liver is of normal size ( cm). Mild/Moderate/Severe fatty infiltration is noted. No focal hepatic lesion detected. The portal vein is patent with normal hepatopetal flow.\nGallbladder appears normal. No gallstone seen.\nIntrahepatic and common ducts are not dilated.\nThere is no ascites.",
+      "COMMENTS": "Mild/Moderate/Severe fatty liver with no focal lesion is seen in gallbladder and biliary system.\nNo focal lesion detected in liver, gallbladder and biliary system."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_003",
+    "name": "ULTRASOUND SCAN OF GALLBLADDER",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Two immobile echogenic foci up to 0.30cm are noted adhering the gallbladder wall, suggestive of gallbladder polyps.   No gallstone seen.\nCommon bile duct  is not dilated and measures 0.23cm in calibre.",
+      "COMMENTS": "Two gallbladder polyps (up to 0.30cm)\nNo gallstone seen."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_004",
+    "name": "ULTRASOUND SCAN OF GALLBLADDER",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "An immobile echogenic focus of 0.34cm is noted adhering the gallbladder wall, suggestive of a gallbladder polyp.   No gallstone seen.\nCommon bile duct  is not dilated and measures 0.27cm in calibre.",
+      "COMMENTS": "A gallbladder polyp (0.34cm)\nNo gallstone seen."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_005",
+    "name": "ULTRASOUND SCAN OF GALLBLADDER",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "A few shadowing stones up to 2.01cm are seen in the gallbladder.  Gallbladder wall is not thickened.  No pericholecystic fluid is present.  Sonographic Murphy's sign is negative.\nCommon bile duct  is not dilated and measures 0.23cm in calibre.",
+      "COMMENTS": "Gallstones (up to 2.01cm)"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_006",
+    "name": "ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Homogeneous background echotexture of adipose tissues.\nHomogeneous background echotexture of fibroglandular tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breasts.\nA well-circumscribed hypoechoic nodule is seen at left/right breast __ o'clock __cm from nipple, measuring __ x ___x ___cm in size. It shows no intra-lesional vascularity or distal shadowing. This is probably benign and could represent a fibroadenoma.\nMultiple well-circumscribed hypoechoic nodules are seen in bilateral breasts, probably benign and could represent  fibroadenomata. The details are as below:\n-\n-\nMultiple simple anechoic cysts are seen in bilateral / left/ right breast, ranging from  ___ to ___cm. The largest one in the right breast is located at ___ o'clock ___cm from nipple and the largest one in the left breast is located at ___ o'clock __-cm from nipple.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category _ for left breast; BI-RADS Category _ for right breast.\nNo abnormality is seen in both breasts.\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_007",
+    "name": "ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Heterogeneous background echotexture.\nMultiple well-circumscribed hypoechoic nodules are seen in *** right breast/ left breast/ bilateral breasts with no increase in vascularity, probably benign and could represent fibroadenomata. The details are as follows:\n\n| Side | o’clock | cm from nipple | Size in cm\n(TS x AP x LS) | Description |\n| --- | --- | --- | --- | --- |\n| Right |  |  | cm | Lobulated in outline |\n| Right |  |  | cm | Oval in shape |\n| Left |  |  | cm | Lobulated in outline |\n| Left |  |  | cm | Oval in shape |\n\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category 3 (Probably Benign) for both breasts.   Suggest follow up with ultrasound in 6 months for monitoring.\nMultiple well-circumscribed hypoechoic nodules (up to     cm) are seen in __bilateral / left / right breasts,  probably benign and could represent fibroadenomata. (BI-RADS 3)\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Breasts_Multiple FA",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_008",
+    "name": "ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "Bilateral breasts lumps",
+      "FINDINGS": "Heterogeneous background echotexture.\nMultiple circumscribed anechoic cysts are noted in both breasts.\nSeveral circumscribed hypoechoic nodules are also seen in both breasts. These are described below, alongside with the larger / more representative cysts:\n\n| O’clock Position | cm from nipple | Description | Size (cm) | Impression | BI-RADS |\n| --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n|  |  |  |  |  |  |\n\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "American College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Breasts_Multiple nodules",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_009",
+    "name": "ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Homogeneous background echotexture of fibroglandular tissues.\nHomogeneous background echotexture of adipose tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breasts.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category 1 (Negative) for both breasts. Suggest routine screening.\nNo abnormality is seen in both breasts. (BI-RADS 1)\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Breasts_Normal",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_010",
+    "name": "ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Heterogeneous background echotexture.\nNo focal mass is detected in the breasts.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category 1 (Negative) for both breasts. Suggest routine screening.\nNo abnormality is seen in both breasts. (BI-RADS 1)"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Breasts_Normal",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_011",
+    "name": "BILATERAL 2D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "[Mammogram]\nDigital mammography of bilateral breasts in cranio-caudal (CC) and medio-lateral oblique (MLO) views are performed.\nThe breasts are almost entirely fatty.\nThere are scattered areas of fibroglandular density.\nThe breasts are heterogeneously dense, which may obscure small masses.\nThe breasts are extremely dense, which lowers the sensitivity of mammography.\nNo definite focal mass, architectural distortion or suspicious microcalcification is shown.\nNo nipple retraction or skin thickening.\nNo suspicious or enlarged axillary lymph node.\n[Ultrasound of Both Breasts]\nHomogeneous background echotexture of adipose tissues.\nHomogeneous background echotexture of fibroglandular tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breasts.\nA well-circumscribed hypoechoic nodule is seen at left/right breast __ o'clock __cm from nipple, measuring __ x ___x ___cm in size. It shows no intra-lesional vascularity or distal shadowing. This is probably benign and could represent a fibroadenoma.\nMultiple well-circumscribed hypoechoic nodules are seen in bilateral breasts, probably benign and suggestive of fibroadenomata. The details are as below:\nMultiple simple anechoic cysts are seen in bilateral / left/ right breast ranging from  ___ to ___cm. The largest one in the right breast is located at ___ o'clock ___cm from nipple and the largest one in the left breast is located at ___ o'clock __-cm from nipple.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category _ for left breast; BI-RADS Category _ for right breast.\nNo abnormality is seen in both breasts.\nMammogram:\nUltrasound:\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_012",
+    "name": "DIGITAL 2D MAMMOGRAM & ULTRASOUND OF RIGHT BREAST",
+    "sections": {
+      "CLINICAL INFORMATION": "Check up",
+      "FINDINGS": "[Mammogram]\nDigital mammography of _right breast in cranio-caudal (CC) and medio-lateral oblique (MLO) views are performed.\nThe breast is almost entirely fatty.\nThere are scattered areas of fibroglandular density.\nThe breast is heterogeneously dense, which may obscure small masses.\nThe breast is extremely dense, which lowers the sensitivity of mammography.\nNo definite focal mass, architectural distortion or suspicious microcalcification is shown.\nNo nipple retraction or skin thickening.\nNo enlarged axillary lymph node.\n[Ultrasound of Breast]\nHomogeneous background echotexture of adipose tissues.\nHomogeneous background echotexture of fibroglandular tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breast.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipple appears unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in the axilla.",
+      "COMMENTS": "Mammogram:\nUltrasound:\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_013",
+    "name": "DIGITAL 3D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "[Mammogram]\n3D digital tomosynthesis with synthesized 2D C-View in cranio-caudal (CC) and medio-lateral oblique (MLO) views of both breasts are performed.\nThe breasts are almost entirely fatty.\nThere are scattered areas of fibroglandular density.\nThe breasts are heterogeneously dense, which may obscure small masses.\nThe breasts are extremely dense, which lowers the sensitivity of mammography.\nNo definite focal mass, architectural distortion or suspicious microcalcification is shown.\nNo nipple retraction or skin thickening.\nNo enlarged axillary lymph node.\n[Ultrasound of Both Breasts]\nHomogeneous background echotexture of adipose tissues.\nHomogeneous background echotexture of fibroglandular tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breasts.\nA well-circumscribed hypoechoic nodule is seen at left/right breast __ o'clock __cm from nipple, measuring __ x ___x ___cm in size. It shows no intra-lesional vascularity or distal shadowing. This is probably benign and could represent a fibroadenoma.\nMultiple well-circumscribed hypoechoic nodules are seen in bilateral breasts, probably benign and suggestive of fibroadenomata. The details are as below:\nMultiple simple anechoic cysts are seen in bilateral / left/ right breast ranging from ___ to ___cm. The largest one in the right breast is located at ___ o'clock ___cm from nipple and the largest one in the left breast is located at ___ o'clock __-cm from nipple.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipples appear unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in bilateral axillae.",
+      "COMMENTS": "BI-RADS Category _ for right breast; BI-RADS Category _ for left breast.\nNo abnormality is seen in both breasts.\nMammogram:\nUltrasound:\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_014",
+    "name": "DIGITAL 3D MAMMOGRAM & ULTRASOUND OF _RIGHT BREAST",
+    "sections": {
+      "CLINICAL INFORMATION": "Check up",
+      "FINDINGS": "[Mammogram]\n3D digital tomosynthesis with synthesized 2D C-View in cranio-caudal (CC) and medio-lateral oblique (MLO) views of the breast are performed.\nThe breast is almost entirely fatty.\nThere are scattered areas of fibroglandular density.\nThe breast is heterogeneously dense, which may obscure small masses.\nThe breast is extremely dense, which lowers the sensitivity of mammography.\nNo definite focal mass, architectural distortion or suspicious microcalcification is shown.\nNo nipple retraction or skin thickening.\nNo enlarged axillary lymph node.\n[Ultrasound of Breast]\nHomogeneous background echotexture of adipose tissues.\nHomogeneous background echotexture of fibroglandular tissues.\nHeterogeneous background echotexture.\nNo focal mass is detected in the breast.\nNo overt distortion of the normal breast architecture is demonstrated.\nNipple appears unremarkable and are not retracted.\nNo suspicious axillary lymphadenopathy is seen in the axilla.",
+      "COMMENTS": "Mammogram:\nUltrasound:\nAmerican College of Radiology (ACR) BI-RADS® 2013 Assessment Categories and Management Recommendations\n\n| Assessment | Management |\n| --- | --- |\n| Category 0:  Incomplete – Need Additional Imaging Evaluation | Recall for additional imaging |\n| Category 1:  Negative | Routine mammography screening |\n| Category 2:  Benign | Routine mammography screening |\n| Category 3:  Probably Benign | Short-interval (6-month) follow-up mammography |\n| Category 4:  Suspicious\nCategory 4A:  Low suspicion for malignancy\nCategory 4B:  Moderate suspicion for malignancy\nCategory 4C:  High suspicion for malignancy | Tissue diagnosis |\n| Category 5:  Highly Suggestive of Malignancy | Tissue diagnosis |\n| Category 6:  Known Biopsy-Proven Malignancy | Surgical excision when clinically appropriate |"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_015",
+    "name": "DUPLEX ULTRASOUND OF CAROTID ARTERIES",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Reference ranges:\nSignificant stenosis -\nDiameter stenosis > 70%\nPSV > 230 cm/s\nEDV > 100 cm/s\nNormal -\nPSV < 125 cm/s\n[Abbreviations]\nCCA = Common carotid artery\nICA = Internal carotid artery\nECA = External carotid artery\n[Right Carotid System]\nCCA peak systolic velocity (cm/s)\nICA peak systolic velocity (cm/s)\nICA/CCA peak systolic velocity ratio\nICA peak end-diastolic velocity (cm/s)\n[Left  Carotid System]\nCCA peak systolic velocity (cm/s)\nICA peak systolic velocity (cm/s)\nICA/CCA peak systolic velocity ratio\nICA peak end-diastolic velocity (cm/s)\nCephalic flow is observed in bilateral external carotid and vertebral arteries.\nDoppler USG shows no haemodynamically significant stenosis.\nNo demonstrable luminal plaque is seen in bilateral common carotid arteries and internal carotid arteries.\n__ Mild to moderate atheromatous change noted at left CCA, with deposition of partially calcified plaques. Calcified plaques are seen at left carotid bifurcation, extending to proximal end of left ICA. Diameter stenosis at left CCA, left carotid birfucation and cervical portion of left ICA is less than 40%.\nNo / Mild intimal thickening is seen at bilateral distal CCA, measuring up to __ cm at right CCA and __ cm at left CCA",
+      "COMMENTS": "Diffuse mild intimal thickening and atherosclerotic plagues at both bulbs, with no haemodynamically carotid stenosis detected (according to NASCET guidelines)."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_016",
+    "name": "ULTRASOUND FOR CAROTID INTIMAL THICKNESS (IMT) ASSESSMENT",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Bilateral common carotid arteries are patent.\nMean intimal thickness of right distal common carotid artery measures __ mm.\nThis is between __ percentile IMT values standardized for age and gender.\nMean intimal thickness of left distal common carotid artery measures __ mm.\nThis is between __ percentile IMT values standardized for age and gender.\nReference Values:\nA right\n\n| Age | P26 | P50 | P75 |\n| --- | --- | --- | --- |\n| Men <30 | 0.39 | 0.43 | 0.48 |\n| Men 31-40 | 0.42 | 0.46 | 0.50 |\n| Men 41-50 | 0.46 | 0.50 | 0.57 |\n| Men >50 | 0.46 | 0.52 | 0.62 |\n| Women <30 | 0.39 | 0.40 | 0.43 |\n| Women 31-40 | 0.42 | 0.45 | 0.49 |\n| Women 41-50 | 0.44 | 0.48 | 0.53 |\n| Women >50 | 0.50 | 0.54 | 0.59 |\n\nB left\n\n| Age | P26 | P50 | P75 |\n| --- | --- | --- | --- |\n| Men <30 | 0.39 | 0.43 | 0.48 |\n| Men 31-40 | 0.42 | 0.46 | 0.50 |\n| Men 41-50 | 0.46 | 0.50 | 0.57 |\n| Men >50 | 0.46 | 0.52 | 0.62 |\n| Women <30 | 0.39 | 0.40 | 0.43 |\n| Women 31-40 | 0.42 | 0.45 | 0.49 |\n| Women 41-50 | 0.44 | 0.48 | 0.53 |\n| Women >50 | 0.50 | 0.54 | 0.59 |",
+      "COMMENTS": "The intimal thickness of left and right common carotid arteries measure __ mm and __ mm respectively, __  percentile IMT values standardized for age and gender.\nFindings are indicative of an __increased / unchanged cardiovascular risk, according to the American Society of Echography Consensus Statement.\nCarotid IMT values greater than or equal to 75th percentile are considered high and indicative of increased CVD risk.\nValues in the 25th to 75th percentile are considered average and indicative of unchanged CVD risk.\nValues less than or equal to 25th percentile are considered lower CVD risk."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_017",
+    "name": "ULTRASOUND OF KIDNEYS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Renal sizes, outlines and parenchymal echotexture are normal.\nCorticomedullary differentiation is preserved.\nCollecting systems are not dilated.\nNo space occupying lesion or renal stone is seen in the kidneys.",
+      "COMMENTS": "No focal lesion seen in the kidneys."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_018",
+    "name": "ULTRASOUND OF URINARY SYSTEM (KIDNEYS AND URINARY BLADDER)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Renal sizes, outlines and parenchymal echotexture are normal.\nCorticomedullary differentiation is preserved.\nCollecting systems are not dilated.\nNo space occupying lesion or renal stone is seen in the kidneys.\nUrinary bladder shows fair distension.\nNo bladder stone, focal mural thickening or intra-vesical space occupying lesion is noted.",
+      "COMMENTS": "No focal lesion seen in the kidneys and urinary bladder."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_019",
+    "name": "ULTRASOUND OF KIDNEYS",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Left kidney measures 9.47cm in length. Moderate left/right hydronephrosis and proximal left hydroureter are noted. Cortical thinning is seen in the left kidney, suggestive of a long-standing process. The distal portion of the left ureter is obscured. No definite renal or ureteric stone is seen.\nRight kidney is normal in size and measures 11.1cm in length. Parenchymal echotexture is normal. Corticomedullary differentiation is preserved. Collecting systems are not dilated.\nNo space occupying lesion or renal stone is seen.",
+      "COMMENTS": "Moderate left/right hydronephrosis and proximal hydroureter with cortical thinning. Correlation with previous investigation findings (if any) +/- further evaluation is suggested."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Kidneys Hydronephrosis",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_020",
+    "name": "DOPPLER ULTRASOUND OF **LEFT LOWER LIMB VEINS",
+    "sections": {
+      "CLINICAL INFORMATION": "To exclude deep vein thrombosis",
+      "FINDINGS": "The **left common femoral, superficial femoral, popliteal, posterior tibial, peroneal and anterior tibial veins are patent and are fully compressible.\nNo abnormal internal echoes are seen.\nThe veins show normal Doppler signals and spectral variation with augmentation and respiration.",
+      "COMMENTS": "No sonographic evidence of deep vein thrombosis from **left common femoral vein down to calf veins."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_021",
+    "name": "DOPPLER ULTRASOUND FOR RIGHT LOWER LIMB VENOUS INCOMPETENCE",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "The right common femoral, superficial femoral and popliteal veins are patent and are fully compressible. No abnormal internal echoes are seen.\nThe veins show normal Doppler signals and spectral variation with augmentation and respiration.\nThe great saphenous vein (from SFJ down to ankle level) and the short saphenous vein (from popliteal level down to ankle level ) shows normal Doppler signal with no sonographic evidence of venous incompetence or reflux upon standing Valsalva maneuver and augmentation.",
+      "COMMENTS": "No sonographic evidence of venous incompetence in the right superficial and deep vein systems."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_022",
+    "name": "ULTRASOUND INFANT BRAIN",
+    "sections": {
+      "CLINICAL INFORMATION": "Hypotonia",
+      "FINDINGS": "Examination performed via patent anterior fontanelle. Posterior fontanelle has obliterated.\nNo focal abnormal parenchymal echogenicity is noted.\nNo abnormal periventricular echogenicity or cyst is demonstrated.\nCaudothalamic groove shows no abnormal echogenicity.\nThe ventricular system is not dilated and lateral ventricles are symmetrical in appearance.\nCorpus callosum appears unremarkable.\nNo extra-axial fluid collection seen.",
+      "COMMENTS": "No focal abnormality detected in the brain."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_023",
+    "name": "ULTRASOUND OF NECK",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "Both lobes of the thyroid gland are normal in size and contour.  Isthmus is not thickened.\nThe parenchymal echopattern is homogeneous.  Glandular vascularity is unremarkable.\nNo focal mass is seen in the thyroid gland.\nBilateral submandibular glands and parotid glands show symmetrical and homogeneous echopattern. Glandular vascularity is unremarkable.\nNo focal mass is seen in the submandibular and superficial lobes of parotid glands.\nNo enlarged or suspicious cervical lymph node is detected.",
+      "COMMENTS": "No focal abnormality is detected in the neck."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_024",
+    "name": "ULTRASOUND SCAN OF OBSTETRICS  (1ST TRIMESTER)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "L.M.P.\nUterus is anteverted  with a single intrauterine pregnancy noted. No subchorionic hemorrhage detected. The fetal details are as follows:\n\n|  | Measurement | Estimated gestational age (weeks/days) |\n| --- | --- | --- |\n| Mean gestational sac diameter |  |  |\n| Yolk sac |  |  |\n| Crown-rump length (CRL) |  |  |\n| Fetal heart motion |  |  |\n\nNo focal uterine mass is seen.\nOvaries are of normal size, with the right ovary measuring    cm x   cm x   cm  and the left ovary measuring  cm x  cm x cm.\nNo definite adnexal mass is detected.\nNo abnormal fluid in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "Single live intrauterine pregnancy\nEstimated gestational age:    weeks days"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_025",
+    "name": "ULTRASOUND SCAN OF THE PELVIS (TRANS-ABDOMINAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "L.M.P.\nUterus is anteverted and normal in size and outline, measuring ---  cm.\nEndometrial echo is smooth in contour and normal in thickness, up to --- cm. (normal: post-menopausal with bleeding <4mm, without bleeding <8mm, pre-menopausal proliferative <8mm, secretory <16mm)\nNo focal uterine mass is detected.\nOvaries are of normal size, with the right ovary measuring __ cm and the left ovary measuring __ cm. A few small thin-walled cysts are seen in both ovaries, up to __  cm in size, likely physiological.\nNo definite adnexal mass is detected.\nNo abnormal fluid in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "No focal abnormality is detected in the pelvis."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_026",
+    "name": "ULTRASOUND SCAN OF THE PELVIS (TRANS-ABDOMINAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "L.M.P.\nUterus is anteverted and normal in size and outline.\nEndometrial echo is smooth in contour and normal in thickness.\nNo focal uterine mass is detected.\nOvaries are of normal size.  A few small thin-walled cysts are seen in both ovaries,  likely physiological.\nNo definite adnexal mass is detected.\nNo abnormal fluid in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "No focal abnormality is detected in the pelvis."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_027",
+    "name": "ULTRASOUND SCAN OF THE PELVIS (TRANS-ABDOMINAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Uterus is anteverted and normal in size and outline, measuring 9.28 x 3.78 x 4.58cm.\nEndometrial echo is smooth in contour and normal in thickness, up to 0.99cm.\nA well-defined hypoechoic nodule is noted at the _____left anterior uterine wall, measuring ___x___x___cm. This could represent a _________subserosal/ submucosal/ intramural fibroid.\nOvaries are of normal size, with the right ovary measuring __cm x ___cm x __cm and the left ovary measuring ____cm x ____cm x ____cm . A thin-walled cyst is seen in right ovary, measuring __x __ x ___cm . No solid mural nodule or vascularity seen.\nNo definite adnexal mass is detected.\nNo abnormal fluid in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "An intramural fibroid (1.76cm) at the left anterior wall of the uterus.\nRight ovarian cyst (2.19cm)"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US PELVIS-TA_Fibroid / Ovarian Cyst",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_028",
+    "name": "ULTRASOUND SCAN OF THE PELVIS (TRANS-VAGINAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "L.M.P.\nUterus is anteverted and normal in size and outline, measuring ---  cm.\nEndometrial echo is smooth in contour and normal in thickness, up to ---cm. (normal: post-menopausal with bleeding <4mm, without bleeding <8mm, pre-menopausal proliferative <8mm, secretory <16mm)\nNo focal uterine mass is detected.\nOvaries are of normal size, with the right ovary measuring cm x cm x cm and the left ovary measuring cm x cm x cm (mean: 3x2x2cm, normal 10-15cc). A few small cysts are seen, up to _ cm in size, likely physiological.\nNo definite adnexal mass is detected.\nNo abnormal fluid in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "No focal abnormality is detected in the pelvis."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_029",
+    "name": "ULTRASOUND OF THE URINARY BLADDER AND PROSTATE (TRANS-ABDOMINAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "The urinary bladder shows fair distension with  no focal mass or mural thickening.\nNo bladder stone is detected.\nThe prostate gland is normal in size and measures ____ cm (WxAPxCC) in size, approximately ____ c.c. in volume.\nA few echogenic calcifications are seen in the prostate. No focal hypoechoic nodule or contour disruption is depicted.\nSeminal vesicles appear unremarkable.",
+      "COMMENTS": "Normal-sized prostate ( ____ c.c.).\nProstatic calcifications. No focal prostatic mass is demonstrated.\nUrinary bladder is unremarkable with no bladder stone detected."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_030",
+    "name": "ULTRASOUND OF PROSTATE GLAND AND URINARY BLADDER (TRANSRECTAL)",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Prostate gland is normal in size and measures __x__x__ cm, about ____ c.c. in volume.\nProstatic contour is smooth.\nNo focal hypoechoic nodule is detected in the prostate.\nSeminal vesicles appear unremarkable.\nUrinary bladder is unremarkable. No focal mural thickening or intra-vesical space occupying lesion is seen.",
+      "COMMENTS": ""
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_031",
+    "name": "ULTRASOUND OF RENAL ARTERY DOPPLER",
+    "sections": {
+      "CLINICAL INFORMATION": "IgAN, CKD,  creatine 103.\nTold to have renal artery stenosis",
+      "FINDINGS": "Renal sizes, outlines and parenchymal echotexture are normal.\nThe right and left kidneys measure __ cm and __ cm respectively.\nCorticomedullary differentiation is preserved.\nCollecting systems are not dilated.\nNo space occupying lesion or renal stone is seen in the kidneys.\nColor and spectral Doppler interrogation of the renal arteries was performed utilizing both the indirect method, evaluating the distal renal arteries just proximal to the renal hila bilaterally and the intrarenal arteries, and the direct method, evaluating main renal artery velocities at the origins off the aorta.   The systolic acceleration is normal bilaterally, greater than 3m/s/s.  The resistance index is within normal limits, between ___ to ___ bilaterally.  Peak velocities within the origins of the renal arteries are in the normal range, measuring ___ cm/s on the right and ___ cm/s on the left.  Peak velocity within the abdominal aorta measures approximately 100cm/s.  Normal main renal venous flow was seen bilaterally.",
+      "COMMENTS": "No evidence of renal artery stenosis utilizing both indirect and direct methods of renal artery Doppler interrogation."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_032",
+    "name": "ULTRASOUND OF SCROTUM",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "Both testes are normal in sizes and echogenicity.\nNo abnormal colour flow seen.\nNo focal testicular mass is detected.\nEpididymis are unremarkable.\nNo hydrocele detected.\nBilateral pampiniform venous plexus are not dilated.",
+      "COMMENTS": ""
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_033",
+    "name": "ULTRASOUND-GUIDED FNA OF THYROID NODULE",
+    "sections": {
+      "PROCEDURE": "With reference to prior ultrasound dated _, the target _ thyroid nodule is identified, measuring _ cm.\nThe potential risks of the procedure have been explained to the patient and the patient consented for the procedure.\nThe procedure is performed under aseptic technique and local anaesthesia (2% Xylocaine) using a 21G hypodermic needle. A total of 3 passes are made. Specimen is sent for cytology.\nProcedure is uneventful.  Nil immediate complication.",
+      "SUMMARY": "Ultrasound-guided FNA of thyroid nodule performed, uneventful.\nPending",
+      "PATHOLOGICAL DIAGNOSIS": "Pending"
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_034",
+    "name": "ULTRASOUND OF THYROID GLAND",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "Both lobes of the thyroid gland are normal in size and contour. The right lobe measures ___x__x___ cm and the left lobe measures ____x___x___ cm. Isthmus is not thickened, measuring ___ mm.\nThe parenchymal echopattern is homogeneous.  Glandular vascularity is unremarkable.\n***Several small hypoechoic nodules are seen in both thyroid lobes. Their borders are well-defined. No internal punctate calcification or increased vascularity is demonstrated. Appearances are in favour of benign lesions such as adenomatous nodules or colloid cysts. They are located at:\nNo other focal mass is seen in the thyroid gland.\nNo enlarged or suspicious cervical lymph node is detected.",
+      "COMMENTS": "No focal thyroid lesion detected."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_035",
+    "name": "ULTRASOUND OF THYROID GLAND",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Both lobes of the thyroid gland are normal in size and contour.  Isthmus is not thickened.\nThe parenchymal echopattern is homogeneous.  Glandular vascularity is unremarkable.\nNo focal mass is seen in the thyroid gland.\nNo enlarged or suspicious cervical lymph node is detected.",
+      "COMMENTS": "No focal thyroid lesion detected."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_036",
+    "name": "ULTRASOUND SCAN OF UPPER ABDOMEN",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Liver is of normal size ( cm at mid-clavicular line) and echotexture. Hepatic outline is smooth. No focal hepatic lesion detected. The portal vein is patent with normal hepatopetal flow.\nLiver is of normal size ( cm at mid-clavicular line). The echopattern shows diffuse increase, suggestive of mild/moderate/severe fatty infiltration. A well-defined geograhic hypoechoic lesion (cm x cm x cm) is seen adjacent to the gallbladder fossa, without mass effect or increased vascularity, suggestive of focal fatty sparing. Hepatic outline is smooth. No other focal hepatic mass lesion detected. The portal vein is patent with normal hepatopetal flow.\nIntrahepatic and common ducts are not dilated.  Common bile duct measures __ cm in calibre.\nGallbladder is unremarkable. No shadowing gallstone seen.\nNo focal lesion detected at body of pancreas, rest of pancreas is obscured by bowel gas.\nSpleen is not enlarged.\nKidneys show normal sizes, outline and echogenicity, with preserved cortico-medullary differentiation. No focal renal mass, echogenic stone or hydronephrosis is demonstrated.\nAbdominal aorta is of normal calibre without aneurysmal dilatation.\nThere is no ascites.",
+      "COMMENTS": "No abnormality detected in the upper abdomen (liver, gallbladder, pancreas, biliary system, spleen, kidneys and aorta)."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_037",
+    "name": "ULTRASOUND SCAN OF ABDOMEN AND PELVIS",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "L.M.P.\nLiver is of normal size ( cm at mid-clavicular line) and echotexture. Hepatic outline is smooth. No focal hepatic lesion detected. The portal vein is patent with normal hepatopetal flow.\nLiver is of normal size ( cm at mid-clavicular line). The echopattern shows diffuse increase, suggestive of mild/moderate/severe fatty infiltration. A well-defined geograhic hypoechoic lesion (cm x cm x cm) is seen adjacent to the gallbladder fossa, without mass effect or increased vascularity, suggestive of focal fatty sparing. Hepatic outline is smooth. No other focal hepatic mass lesion detected. The portal vein is patent with normal hepatopetal flow.\nIntrahepatic and common ducts are not dilated.  Common bile duct measures __ cm in calibre.\nGallbladder is unremarkable. No shadowing gallstone seen.\nNo focal lesion detected at body of pancreas, rest of pancreas is obscured by bowel gas.\nSpleen is not enlarged.\nKidneys show normal sizes, outline and echogenicity, with preserved cortico-medullary differentiation. No focal renal mass, echogenic stone or hydronephrosis is demonstrated.\nAbdominal aorta is of normal calibre without aneurysmal dilatation.\nThere is no ascites.\nUterus is anteverted and normal in size and outline (normal: 8x4x4cm). No focal uterine mass is detected.\nEndometrial echo is normal in thickness. (normal: post-menopausal with bleeding <4mm, without bleeding <8mm, pre-menopausal proliferative <8mm, secretory <16mm)\nOvaries are of normal size. A few small thin-walled cysts are seen in both ovaries, probably physiological.\nNo definite adnexal mass detected.\nNo significant free fluid is seen in the pouch of Douglas.\nUrinary bladder is unremarkable.",
+      "COMMENTS": "No abnormality detected in the abdomen and pelvis (liver, gallbladder, pancreas, biliary system, spleen, kidneys, aorta, urinary bladder, uterus and ovaries)."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Whole Abd-TA Female",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_038",
+    "name": "ULTRASOUND SCAN OF ABDOMEN AND PELVIS",
+    "sections": {
+      "CLINICAL INFORMATION": "For investigation",
+      "FINDINGS": "Liver is of normal size ( cm at mid-clavicular line) and echotexture. Hepatic outline is smooth. No focal hepatic lesion detected. The portal vein is patent with normal hepatopetal flow.\nLiver is of normal size ( cm at mid-clavicular line). The echopattern shows diffuse increase, suggestive of mild/moderate/severe fatty infiltration. A well-defined geograhic hypoechoic lesion (cm x cm x cm) is seen adjacent to the gallbladder fossa, without mass effect or increased vascularity, suggestive of focal fatty sparing. Hepatic outline is smooth. No other focal hepatic mass lesion detected. The portal vein is patent with normal hepatopetal flow.\nIntrahepatic and common ducts are not dilated.  Common bile duct measures __ cm in calibre.\nGallbladder is unremarkable. No shadowing gallstone seen.\nNo focal lesion detected at body of pancreas, rest of pancreas is obscured by bowel gas.\nSpleen is not enlarged.\nKidneys show normal sizes, outline and echogenicity, with preserved cortico-medullary differentiation. No focal renal mass, echogenic stone or hydronephrosis is demonstrated.\nAbdominal aorta is of normal calibre without aneurysmal dilatation.\nThere is no ascites.\nUrinary bladder is unremarkable. No focal mural thickening or intra-vesical space occupying lesion is seen.\nProstate gland is normal in size and measures cm x cm x cm ( c.c.).\nProstatic contour is smooth.\nNo focal hypoechoic nodule is detected in the prostate.\nSeminal vesicles appear unremarkable.",
+      "COMMENTS": "No abnormality detected in the abdomen and pelvis (liver, gallbladder, pancreas, biliary system, spleen, kidneys, aorta, urinary bladder, prostate and seminal vesicles)."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Whole Abd-TA Male",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_039",
+    "name": "US BOTH HIPS FOR CONGENITAL HIP DYSPLASIA",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "[Right hip]\nAcetabular rim:\nPerichondrial hole:\nFibrocartilagnious labrum:\nAlpha angle:\nBeta angle:\nCartilaginous head _is normal.\nFemoral head coverage under bony acetabulum:\n[Left hip]\nAcetabular rim:\nPerichondrial hole:\nFibrocartilagnious labrum:\nAlpha angle:\nBeta angle:\nCartilaginous head _is normal.\nFemoral head coverage under bony acetabulum:",
+      "COMMENTS": ""
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Infant Hips_Cogential Hip  Dysplasia",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_040",
+    "name": "ULTRASOUND OF BOTH HIPS FOR DEVELOPMENTAL HIP DYSPLASIA",
+    "sections": {
+      "CLINICAL INFORMATION": "?DDH.",
+      "FINDINGS": "[Right Hip]\nAcetabular rim: normal.\nFibrocartilaginous labrum: normal.\nAlpha angle: 70.0 degrees\nBeta angle: 52.2 degrees\nCartilaginous femoral head is normal.\nFemoral head coverage under bony acetabulum: normal at rest and at stress\n[Left Hip]\nAcetabular rim: normal.\nFibrocartilaginous labrum: normal.\nAlpha angle:  65 degrees\nBeta angle: 50 degrees\nCartilaginous femoral head is normal.\nFemoral head coverage under bony acetabulum: normal at rest and at stress",
+      "COMMENTS": "No sonographic evidence of developmental dysplasia in bilateral hips."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_041",
+    "name": "ULTRASOUND OF INFANT SPINE",
+    "sections": {
+      "CLINICAL INFORMATION": "",
+      "FINDINGS": "Conus medullaris terminates normally at L1/2 level.  No abnormal tethering is seen.\nNormal oscillatory motion of nerve roots within cauda equina is observed.\nNo intraspinal mass lesion.\nSubtle sacral dimple is noted.\nNo associated mass lesion or evidence of fistulous tract.\nNo demonstrable defect is seen in the posterior elements.",
+      "COMMENTS": "Unremarkable ultrasound study of the spine.\nNo evidence of spinal dysraphism is demonstrated."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_042",
+    "name": "TRANSTHORACIC ECHOCARIOGRAM REPORT",
+    "sections": {
+      "FINDINGS": "Patient in sinus rhythm during echo study.\nNormal biventricular size and systolic function.\nLVEDD / SD 4.46 / 3.05cm\nLVEF ~ 64% (biplane simpson) / RV S' 18.4 cm/s\nNo regional wall motion abnormality detected.\nNo significant left ventricular hypertrophy.\nNormal LV diastolic function.\nNormal biatrial dimension.\nMild tricuspid regurgitation and trivial mitral regurgitation.\nNo significant valvular lesion detected.\nNo pericardial effusion.\nAortic root not dilated.\nNo intracardiac shunts detected.",
+      "SUMMARY": "Normal biventricular size and systolic function.\nMild tricuspid regurgitation and trivial mitral regurgitation."
+    },
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Cyril Ko",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_043",
+    "name": "TRANSTHORACIC ECHOCARIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Cyril Ko",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_044",
+    "name": "TRANSTHORACIC ECHOCARDIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Cyril Ko",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_045",
+    "name": "TRANSTHORACIC ECHOCARIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Cheung Ling Ling",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_046",
+    "name": "TRANSTHORACIC ECHOCARIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Jason Ko",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_047",
+    "name": "TRANSTHORACIC ECHOCARDIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Jason Ko",
+      "extracted_at": "2025-10-28"
+    }
+  },
+  {
+    "id": "template_048",
+    "name": "TRANSTHORACIC ECHOCARIOGRAM REPORT",
+    "sections": {},
+    "metadata": {
+      "source": "US Report templates.docx",
+      "variation": "US Echo - Dr. Victor Lee",
+      "extracted_at": "2025-10-28"
+    }
+  }
+]

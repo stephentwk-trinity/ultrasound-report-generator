@@ -1,0 +1,36 @@
+**Breast Ultrasound Case-Specific Instructions:**
+
+When generating reports for breast ultrasound scans, strictly adhere to the following guidelines for accurate description, classification, and BI-RADS assignment. Use precise terminology from the provided characteristics to describe any lesions, parenchyma, or axillary findings. Always localize lesions by clock position and distance from the nipple. Include measurements in three dimensions where available. Recommend actions based on BI-RADS level.
+
+**BI-RADS Assessment Categories:**
+- **0: Incomplete** - Need more info/imaging; callback for additional views/ultrasound/comparison.
+- **1: Negative** - Normal, symmetrical breasts; no masses/structures/calcifications; routine screening.
+- **2: Benign** - Negative with noted non-cancerous finding (e.g., simple cyst, benign calcifications); routine screening.
+- **3: Probably Benign** - <2% cancer risk; short-interval follow-up (e.g., 6 months) to confirm stability.
+- **4: Suspicious** - Warrants biopsy; must subcategorized by risk: 4A (2-10%), 4B (10-50%), 4C (50-95%).
+- **5: Highly Suggestive of Malignancy** - ≥95% cancer risk; classic cancer appearance; biopsy strongly recommended.
+- **6: Known Biopsy-Proven Malignancy** - Confirmed cancer; track treatment response.
+
+Assign BI-RADS per breast (or overall if bilateral), prioritizing the highest suspicion finding. For example, a complex cystic mass might be 4B if moderately suspicious.
+
+**Lesion Characteristics (Use These for Descriptions):**
+- **Simple Cyst (Typically BI-RADS 2):** Round/oval, thin well-defined margin, anechoic (black, fluid-filled, no internal echoes), posterior acoustic enhancement (bright echo behind), no vascularity on Doppler.
+- **Complicated Cyst (Typically BI-RADS 3):** Low-level internal echoes/debris (mobile with position change), thin walls/septa (<0.5 mm), posterior enhancement (may be obscured), no vascularity.
+- **Complex Cystic and Solid Mass (BI-RADS 3/4/5):** Mix of cystic (anechoic) and solid (echogenic) components; thick walls/septa (>0.5 mm) or mural nodule; possible vascularity in solid parts; irregular/indistinct margins; variable posterior features.
+- **Solid Mass (BI-RADS 3/4/5):**
+  - **Shape:** Oval (benign, up to 3 gentle lobulations), round (benign/malignant), irregular (suspicious).
+  - **Orientation:** Parallel ("wider than tall," benign), not parallel ("taller than wide," suspicious).
+  - **Margins:** Circumscribed (well-defined, benign); not circumscribed (suspicious): microlobulated (bumpy), angular (jagged), spiculated (radiating lines, highly suspicious).
+  - **Echo Pattern:** Hyperechoic (brighter than fat), isoechoic (same as fat), hypoechoic (darker than fat, common in masses), heterogeneous (mixed).
+  - **Posterior Features:** Enhancement (benign, easy sound passage), shadowing (suspicious, blocked waves), combined, or none.
+
+**Background Echotexture:** Describe as homogeneous (adipose/fibroglandular) or heterogeneous. Note any architectural distortion, nipple retraction, or symmetry.
+
+**Axillary Lymph Nodes:** Describe shape (oval/round), cortex (thin/uniform <3 mm vs. thickened), hilum (preserved echogenic vs. absent), vascularity (hilar/minimal vs. abnormal). Consider enlarged if anteroposterior (AP) diameter >1.0 cm. Benign if reactive-appearing; suspicious if cortical thickening or hilum loss.
+
+**Report Structure Integration:**
+- In FINDINGS: Detail parenchyma, lesions (with characteristics), quadrants/subareolar, nipples, axillae.
+- In IMPRESSION: Summarize key findings, BI-RADS per breast, differentials (e.g., fibroadenoma vs. malignancy).
+- In RECOMMENDATIONS: Suggest biopsy for BI-RADS 4/5, follow-up for 3, routine screening for 1/2.
+
+Analyze all provided images thoroughly, correlating annotations (e.g., labels like "Right Breast 10H 2-3 CMFN," measurements, Doppler). If no abnormality, state explicitly. Ensure report is factual, professional, and evidence-based from images/template.

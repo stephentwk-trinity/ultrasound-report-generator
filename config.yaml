@@ -1,0 +1,162 @@
+# Ultrasound Report Generator - Main Configuration File
+
+# ============================================================================
+# PATH CONFIGURATION
+# ============================================================================
+paths:
+  templates_docx: "US Report templates.docx"
+  templates_json: "data/templates.json"
+  samples_dir: "samples"
+  temp_output_dir: "temp/processed_images"
+  logs_dir: "logs"
+  outputs_dir: "outputs/reports"
+
+# ============================================================================
+# DICOM PROCESSING CONFIGURATION
+# ============================================================================
+dicom:
+  output_format: "jpg"
+  output_quality: 95
+  target_resolution: [1024, 768]
+  preserve_metadata: true
+  max_concurrent_conversions: 5
+
+# ============================================================================
+# PHI REMOVAL CONFIGURATION
+# ============================================================================
+phi_removal:
+  method: "crop"  # Options: "crop", "ocr", "hybrid"
+
+  # Crop method settings
+  crop_pixels: 53  # Pixels to crop from top of image
+
+  # OCR method settings
+  ocr_enabled: true
+  ocr_engine: "tesseract"  # Options: "tesseract", "easyocr"
+  ocr_languages: ["eng"]
+  text_detection_confidence: 0.6
+
+  # Hybrid method settings
+  hybrid_min_text_threshold: 3  # Minimum text regions to use OCR
+
+# ============================================================================
+# LLM CONFIGURATION
+# ============================================================================
+llm:
+  provider: "openrouter"
+  model: "google/gemini-2.5-pro"
+
+  # API settings
+  base_url: "https://openrouter.ai/api/v1"
+  max_tokens: 4000
+  temperature: 0.3
+  top_p: 0.9
+  timeout: 120
+  max_retries: 3
+  retry_delay: 2
+
+  # Image handling
+  max_images_per_request: 10
+  image_encoding: "base64"
+
+  # Prompt engineering
+  system_prompt_enabled: true
+  few_shot_examples: 1
+  include_template_structure: true
+
+# ============================================================================
+# TEMPLATE SELECTION CONFIGURATION
+# ============================================================================
+template_mapping:
+  # Single modality mappings
+  "Us_Breast_(Bilateral)": "ULTRASOUND OF BOTH BREASTS"
+  "Us_Breast_(Right)": "ULTRASOUND OF RIGHT BREAST"
+  "Us_Breast_(Left)": "ULTRASOUND OF LEFT BREAST"
+  "Us_Liver": "ULTRASOUND SCAN OF LIVER"
+  "Us_Gallbladder": "ULTRASOUND SCAN OF GALLBLADDER"
+  "Us_Liver_GB_Biliary": "ULTRASOUND SCAN OF LIVER, GALLBLADDER AND BILIARY SYSTEM"
+  "Us_Kidneys": "ULTRASOUND OF KIDNEYS"
+  "Us_Upper_Abdomen": "ULTRASOUND SCAN OF UPPER ABDOMEN"
+  "Us_Abdomen_Pelvis": "ULTRASOUND SCAN OF ABDOMEN AND PELVIS"
+  "Us_Thyroid": "ULTRASOUND OF THYROID GLAND"
+  "Us_Neck": "ULTRASOUND OF NECK"
+  "Us_Carotid": "DUPLEX ULTRASOUND OF CAROTID ARTERIES"
+  "Us_Scrotum": "ULTRASOUND OF SCROTUM"
+  "Us_Prostate": "ULTRASOUND OF THE URINARY BLADDER AND PROSTATE"
+  "Us_Pelvis": "ULTRASOUND SCAN OF THE PELVIS"
+  "Us_Obstetric": "ULTRASOUND SCAN OF OBSTETRICS"
+  "Us_Infant_Brain": "ULTRASOUND INFANT BRAIN"
+  "Us_Infant_Spine": "ULTRASOUND OF INFANT SPINE"
+  "Us_Infant_Hips": "ULTRASOUND OF BOTH HIPS FOR DEVELOPMENTAL HIP DYSPLASIA"
+  "Doppler_Lower_Limb": "DOPPLER ULTRASOUND OF LOWER LIMB VEINS"
+  "Echo_TTE": "TRANSTHORACIC ECHOCARDIOGRAM REPORT"
+
+  # Multi-modality mappings (combined studies)
+  "Us_Breast_(Bilateral)|Mg2DBi": "BILATERAL 2D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS"
+  "Us_Breast_(Right)|Mg2D_Right": "DIGITAL 2D MAMMOGRAM & ULTRASOUND OF RIGHT BREAST"
+  "Us_Breast_(Bilateral)|Mg3DBi_Standard_Screening__Tomohd": "DIGITAL 3D MAMMOGRAM & ULTRASOUND OF BOTH BREASTS"
+  "Us_Breast_(Right)|Mg3D_Right": "DIGITAL 3D MAMMOGRAM & ULTRASOUND OF RIGHT BREAST"
+
+# Fallback template selection
+template_selection:
+  use_fuzzy_matching: true
+  fuzzy_threshold: 0.7
+  prompt_on_ambiguous: true
+  default_template: "ULTRASOUND OF BOTH BREASTS"
+
+# ============================================================================
+# USER INTERFACE CONFIGURATION
+# ============================================================================
+ui:
+  title: "Ultrasound Report Generator"
+  theme: "light"
+  max_upload_size_mb: 500
+  preview_images: true
+  max_preview_images: 10
+  preview_thumbnail_size: [200, 150]
+  enable_report_editing: true
+  show_performance_metrics: true
+
+# ============================================================================
+# PERFORMANCE CONFIGURATION
+# ============================================================================
+performance:
+  enable_profiling: true
+  profile_output: "logs/performance.json"
+  max_concurrent_images: 5
+  batch_size: 10
+  cache_templates: true
+  cleanup_temp_files: true
+
+# ============================================================================
+# LOGGING CONFIGURATION
+# ============================================================================
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "logs/app.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function} - {message}"
+  console_output: true
+  file_output: true
+
+# ============================================================================
+# EXPORT CONFIGURATION
+# ============================================================================
+export:
+  default_format: "docx"  # docx, txt, both
+  docx_template: null  # Optional custom DOCX template
+  include_metadata: true
+  include_timestamp: true
+  include_performance_stats: false
+  filename_pattern: "Report_{patient_id}_{timestamp}.{ext}"
+
+# ============================================================================
+# VALIDATION CONFIGURATION
+# ============================================================================
+validation:
+  validate_dicom_files: true
+  require_template_match: false
+  check_image_quality: true
+  min_image_resolution: [512, 384]
+  max_case_images: 100
