@@ -85,23 +85,27 @@ class CaseOrchestrator:
         Returns:
             Selected Template object or None
         """
+        logger.info(f"[NEW CODE v2] _select_template called with input_dir: {input_dir}")
+        
         # Find the first subdirectory within input_dir for template selection
         # This ensures we use the body region folder name, not the patient name
         subdirs = [d for d in input_dir.iterdir() if d.is_dir()]
         
+        logger.info(f"[NEW CODE v2] Found {len(subdirs)} subdirectories in {input_dir}")
+        
         if subdirs:
             # Use the first subdirectory's name (body region folder)
             template_selection_name = subdirs[0].name
-            logger.info(f"Using subdirectory name for template selection: {template_selection_name}")
+            logger.info(f"[NEW CODE v2] Using subdirectory name for template selection: {template_selection_name}")
         else:
             # Fallback to input_dir name if no subdirectories found
             template_selection_name = input_dir.name
-            logger.info(f"No subdirectories found, using input_dir name: {template_selection_name}")
+            logger.info(f"[NEW CODE v2] No subdirectories found, using input_dir name: {template_selection_name}")
         
         # Extract directory names for template selection
         dir_names = [template_selection_name]
 
-        logger.info(f"Selecting template based on directory names: {dir_names}")
+        logger.info(f"[NEW CODE v2] Selecting template based on directory names: {dir_names}")
 
         template, info = self.template_selector.select_template_with_info(dir_names)
 
@@ -151,6 +155,8 @@ class CaseOrchestrator:
         Raises:
             Exception: If any step in the processing fails
         """
+        logger.info("[NEW CODE v2] process_case called - Returns Tuple[str, str, float]")
+        
         # Record start time
         start_time = time.time()
         
@@ -159,7 +165,7 @@ class CaseOrchestrator:
         if not input_path.exists():
             raise FileNotFoundError(f"Input directory not found: {input_dir}")
 
-        logger.info(f"Starting case processing for: {input_path}")
+        logger.info(f"[NEW CODE v2] Starting case processing for: {input_path}")
 
         try:
             # Step 1: Get output directories
@@ -235,11 +241,13 @@ class CaseOrchestrator:
             # Calculate processing duration
             duration = time.time() - start_time
 
-            logger.info(f"Case processing completed successfully in {duration:.2f} seconds. Report saved to: {report_path}")
+            logger.info(f"[NEW CODE v2] Case processing completed successfully in {duration:.2f} seconds. Report saved to: {report_path}")
 
             # Extract patient name
             patient_name = input_path.name
 
+            logger.info(f"[NEW CODE v2] Returning tuple: (report_path={report_path}, patient_name={patient_name}, duration={duration:.2f})")
+            
             return str(report_path), patient_name, duration
 
         except Exception as e:

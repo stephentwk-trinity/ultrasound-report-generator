@@ -201,9 +201,15 @@ def main():
                             results.append((zip_file.name, "Failed to extract ZIP file", False, 0.0))
                             continue
                         
+                        logger.info(f"[NEW CODE v2] About to call orchestrator.process_case with path: {case_path}")
+                        
                         # Process the case using orchestrator (now returns tuple with duration)
-                        report_path, patient_name, duration = orchestrator.process_case(str(case_path))
-                        logger.info(f"Processing case: {patient_name}")
+                        result = orchestrator.process_case(str(case_path))
+                        logger.info(f"[NEW CODE v2] Received result from process_case: {result}")
+                        logger.info(f"[NEW CODE v2] Result type: {type(result)}, length: {len(result) if isinstance(result, tuple) else 'N/A'}")
+                        
+                        report_path, patient_name, duration = result
+                        logger.info(f"[NEW CODE v2] Unpacked successfully - patient: {patient_name}, duration: {duration:.2f}s")
                         
                         # Read the generated report
                         report_text = read_report_file(report_path)
