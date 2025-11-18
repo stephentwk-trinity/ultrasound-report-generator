@@ -1,6 +1,7 @@
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Tuple
 import os
+import time
 from datetime import datetime
 
 from src.core.config_manager import ConfigManager
@@ -84,15 +85,21 @@ class CaseOrchestrator:
         Returns:
             Selected Template object or None
         """
+        # Find the first subdirectory within input_dir for template selection
+        # This ensures we use the body region folder name, not the patient name
+        subdirs = [d for d in input_dir.iterdir() if d.is_dir()]
+        
+        if subdirs:
+            # Use the first subdirectory's name (body region folder)
+            template_selection_name = subdirs[0].name
+            logger.info(f"Using subdirectory name for template selection: {template_selection_name}")
+        else:
+            # Fallback to input_dir name if no subdirectories found
+            template_selection_name = input_dir.name
+            logger.info(f"No subdirectories found, using input_dir name: {template_selection_name}")
+        
         # Extract directory names for template selection
-        dir_names = [input_dir.name]
-
-        # Also check parent directories for additional context
-        current = input_dir.parent
-        while current != current.parent:  # Stop at root
-            if current.name and current.name != "samples":
-                dir_names.append(current.name)
-            current = current.parent
+        dir_names = [template_selection_name]
 
         logger.info(f"Selecting template based on directory names: {dir_names}")
 
@@ -128,7 +135,7 @@ class CaseOrchestrator:
         filename = f"Report_{patient_id}_{timestamp}.txt"
         return filename
 
-    def process_case(self, input_dir: str) -> str:
+    def process_case(self, input_dir: str) -> Tuple[str, str, float]:
         """
         Process a complete patient case from DICOM files to final report.
 
@@ -136,11 +143,17 @@ class CaseOrchestrator:
             input_dir: Path to directory containing DICOM files
 
         Returns:
-            Path to the generated report file
+            Tuple of (report_path, patient_name, duration)
+            - report_path: Path to the generated report file
+            - patient_name: Name/identifier of the patient
+            - duration: Processing time in seconds
 
         Raises:
             Exception: If any step in the processing fails
         """
+        # Record start time
+        start_time = time.time()
+        
         input_path = Path(input_dir)
 
         if not input_path.exists():
@@ -219,9 +232,15 @@ class CaseOrchestrator:
 
             self.report_generator.save_report(report_text, report_path)
 
-            logger.info(f"Case processing completed successfully. Report saved to: {report_path}")
+            # Calculate processing duration
+            duration = time.time() - start_time
 
-            return str(report_path)
+            logger.info(f"Case processing completed successfully in {duration:.2f} seconds. Report saved to: {report_path}")
+
+            # Extract patient name
+            patient_name = input_path.name
+
+            return str(report_path), patient_name, duration
 
         except Exception as e:
             logger.error(f"Case processing failed: {e}")

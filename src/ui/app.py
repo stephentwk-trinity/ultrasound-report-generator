@@ -123,7 +123,7 @@ def main():
         3. Wait for processing to complete (progress bar will show status)
         4. Review and copy the generated reports from the text areas below
         
-        **Note:** Each ZIP file should contain a patient case with DICOM (.dcm) files organized in folders.
+        **Note:** Each ZIP file should contain a patient case with DICOM (.dcm) files organized in folders. (e.g. patient_name.zip => patient_name => Us_Breast_(Bilateral) - US23__USBREAST => US_BREAST_(BILATERAL)_1 => DICOM images)
         """)
     
     st.markdown("##")
@@ -165,8 +165,8 @@ def main():
             progress_bar = st.progress(0)
             progress_text = st.empty()
             
-            # List to store results
-            results: List[Tuple[str, str, bool]] = []
+            # List to store results (patient_name, report_text, success, duration)
+            results: List[Tuple[str, str, bool, float]] = []
             
             # Create temporary directory for all extractions
             with tempfile.TemporaryDirectory() as temp_base_dir:
@@ -198,27 +198,24 @@ def main():
                         case_path = extract_zip_file(zip_file, case_temp_dir)
                         
                         if case_path is None:
-                            results.append((zip_file.name, "Failed to extract ZIP file", False))
+                            results.append((zip_file.name, "Failed to extract ZIP file", False, 0.0))
                             continue
                         
-                        # Get patient name
-                        patient_name = get_patient_name_from_path(case_path)
+                        # Process the case using orchestrator (now returns tuple with duration)
+                        report_path, patient_name, duration = orchestrator.process_case(str(case_path))
                         logger.info(f"Processing case: {patient_name}")
-                        
-                        # Process the case using orchestrator
-                        report_path = orchestrator.process_case(str(case_path))
                         
                         # Read the generated report
                         report_text = read_report_file(report_path)
                         
-                        # Store successful result
-                        results.append((patient_name, report_text, True))
-                        logger.info(f"Successfully processed case: {patient_name}")
+                        # Store successful result with duration
+                        results.append((patient_name, report_text, True, duration))
+                        logger.info(f"Successfully processed case: {patient_name} in {duration:.2f} seconds")
                         
                     except Exception as e:
                         error_msg = f"Error: {str(e)}"
                         logger.error(f"Failed to process {zip_file.name}: {traceback.format_exc()}")
-                        results.append((zip_file.name, error_msg, False))
+                        results.append((zip_file.name, error_msg, False, 0.0))
             
             # Clear progress indicators
             progress_bar.empty()
@@ -232,7 +229,7 @@ def main():
             st.warning("⚠️ No reports were generated")
         else:
             # Summary
-            successful = sum(1 for _, _, success in results if success)
+            successful = sum(1 for _, _, success, _ in results if success)
             failed = len(results) - successful
             
             col1, col2, col3 = st.columns(3)
@@ -246,9 +243,12 @@ def main():
             st.markdown("##")
             
             # Display each report
-            for patient_name, report_text, success in results:
+            for patient_name, report_text, success, duration in results:
                 if success:
                     st.subheader(f"👤 {patient_name}")
+                    
+                    # Display processing time
+                    st.metric("Processing Time", f"{duration:.2f} seconds")
                     
                     # Display report in a text area for easy copying
                     st.text_area(
