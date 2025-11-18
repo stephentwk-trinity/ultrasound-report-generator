@@ -1,0 +1,13 @@
+[server]
+headless = true
+enableCORS = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+# Set the 'magic' command. This tells Streamlit to run your app using
+# `python -m streamlit run` from your project's root instead of directly
+# executing the Python file. This helps with module imports.
+magicEnabled = true
