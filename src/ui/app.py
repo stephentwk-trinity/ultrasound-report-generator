@@ -136,12 +136,30 @@ def main():
         help="Select one or more ZIP files containing patient ultrasound DICOM images"
     )
     
-    # Show uploaded files
+    # Show uploaded files and prior report text areas
+    prior_reports = {}
     if uploaded_files:
         st.success(f"✅ {len(uploaded_files)} file(s) uploaded successfully")
-        with st.expander("📁 Uploaded Files", expanded=False):
-            for i, file in enumerate(uploaded_files, 1):
-                st.write(f"{i}. {file.name} ({file.size / 1024:.1f} KB)")
+        
+        st.markdown("### 📁 Uploaded Files & Prior Reports")
+        st.markdown("*Optionally paste prior reports for comparison. Leave blank if no prior report is available.*")
+        
+        for i, file in enumerate(uploaded_files, 1):
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                st.markdown(f"**{i}. {file.name}**")
+                st.caption(f"Size: {file.size / 1024:.1f} KB")
+            with col2:
+                prior_report_text = st.text_area(
+                    label=f"Prior Report for {file.name}",
+                    value="",
+                    height=150,
+                    key=f"prior_report_{file.name}",
+                    placeholder="Paste prior report text here (optional)...",
+                    help="If a prior report exists for this patient, paste it here for comparison in the generated report."
+                )
+                prior_reports[file.name] = prior_report_text
+            st.markdown("---")
     
     st.markdown("##")
     
@@ -201,9 +219,15 @@ def main():
                             results.append((zip_file.name, "Failed to extract ZIP file", False, 0.0))
                             continue
                         
+                        # Get prior report for this file (if any)
+                        prior_report = prior_reports.get(zip_file.name, "").strip() or None
+                        
                         # Process the case using orchestrator (now returns tuple with duration)
-                        report_path, patient_name, duration = orchestrator.process_case(str(case_path))
-                        logger.info(f"Processing case: {patient_name}")
+                        report_path, patient_name, duration = orchestrator.process_case(
+                            str(case_path),
+                            prior_report=prior_report
+                        )
+                        logger.info(f"Processing case: {patient_name}" + (" with prior report" if prior_report else ""))
                         
                         # Read the generated report
                         report_text = read_report_file(report_path)

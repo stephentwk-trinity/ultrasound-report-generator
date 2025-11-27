@@ -135,12 +135,13 @@ class CaseOrchestrator:
         filename = f"Report_{patient_id}_{timestamp}.txt"
         return filename
 
-    def process_case(self, input_dir: str) -> Tuple[str, str, float]:
+    def process_case(self, input_dir: str, prior_report: Optional[str] = None) -> Tuple[str, str, float]:
         """
         Process a complete patient case from DICOM files to final report.
 
         Args:
             input_dir: Path to directory containing DICOM files
+            prior_report: Optional prior report text for comparison
 
         Returns:
             Tuple of (report_path, patient_name, duration)
@@ -219,8 +220,13 @@ class CaseOrchestrator:
                     raise ValueError("No suitable template found and default template unavailable")
 
             # Step 5: Generate report
-            logger.info("Step 4: Generating report using LLM")
-            report_text = self.report_generator.generate_report(cleaned_image_paths, template, template.name)
+            logger.info("Step 4: Generating report using LLM" + (" with prior report comparison" if prior_report else ""))
+            report_text = self.report_generator.generate_report(
+                cleaned_image_paths,
+                template,
+                template.name,
+                prior_report=prior_report
+            )
 
             # Post-processing: Remove markdown formatting
             report_text = report_text.replace('**', '')

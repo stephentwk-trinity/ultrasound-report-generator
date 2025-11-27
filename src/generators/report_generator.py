@@ -144,15 +144,16 @@ INSTRUCTIONS:
 
 Provide your response as an updated "SUMMARY OF FINDINGS" section only."""
 
-    def _create_final_report_prompt(self, summary: str, template: Template, template_name: str) -> str:
+    def _create_final_report_prompt(self, summary: str, template: Template, template_name: str, prior_report: Optional[str] = None) -> str:
         """
         Create prompt for generating final report using summary and template.
-        Includes few-shot examples for breast cases.
+        Includes few-shot examples for breast cases and prior report if available.
 
         Args:
             summary: Final cumulative summary of findings
             template: Selected report template
             template_name: Name of the selected template
+            prior_report: Optional prior report text for comparison
 
         Returns:
             Prompt for final report generation
@@ -173,7 +174,20 @@ Please follow similar formatting, structure, and clinical terminology as shown i
 """
                 logger.info("Including few-shot examples in final report prompt for breast case")
 
-        return f"""Using the cumulative Summary of Findings below, generate a complete ultrasound report following the provided template structure.{few_shot_examples}
+        # Add prior report section if provided
+        prior_report_section = ""
+        prior_report_instruction = ""
+        if prior_report:
+            prior_report_section = f"""
+
+---PRIOR REPORT---
+{prior_report}
+---END PRIOR REPORT---
+"""
+            prior_report_instruction = " AND the prior report provided above"
+            logger.info("Including prior report in final report prompt for comparison")
+
+        return f"""Using the cumulative Summary of Findings below, generate a complete ultrasound report following the provided template structure.{few_shot_examples}{prior_report_section}
 
 SUMMARY OF FINDINGS:
 {summary}
@@ -188,8 +202,9 @@ INSTRUCTIONS:
 4. Follow standard medical reporting conventions
 5. If a section has no relevant findings, indicate "No significant findings" or similar appropriate text
 6. Generate a professional, comprehensive medical report
+{f"7. Compare findings with the prior report and explicitly note any significant changes, new findings, or stability compared to the prior study." if prior_report else ""}
 
-Based on the provided examples, the cumulative summary of findings, and the report template, generate a complete, narrative clinical report. Your response MUST strictly follow the structure, sentence structure (e.g. if the examples wrote "Findings are likely benign and can represent mild changes of mammary duct ectasia.", reuse this sentence instead of reporting in other ways like "There is evidence of subareolar ductal ectasia."), narrative style, and formatting of the examples. Do NOT use markdown formatting like bolding ('**') for emphasis. The output should be a clean plain-text document. Do NOT return JSON format - provide only the clean narrative text report."""
+Based on the provided examples, the cumulative summary of findings, the report template{prior_report_instruction}, generate a complete, narrative clinical report.{" Explicitly note any significant changes, new findings, or stability compared to the prior study." if prior_report else ""} Your response MUST strictly follow the structure, sentence structure (e.g. if the examples wrote "Findings are likely benign and can represent mild changes of mammary duct ectasia.", reuse this sentence instead of reporting in other ways like "There is evidence of subareolar ductal ectasia."), narrative style, and formatting of the examples. Do NOT use markdown formatting like bolding ('**') for emphasis. The output should be a clean plain-text document. Do NOT return JSON format - provide only the clean narrative text report."""
 
     def process_images_batch(self, image_paths: List[str], current_summary: str,
                            batch_number: int, total_batches: int, template_name: str = "") -> str:
@@ -256,16 +271,18 @@ Based on the provided examples, the cumulative summary of findings, and the repo
             # Return current summary unchanged on error
             return current_summary
 
-    def generate_report(self, image_paths: List[str], template: Template, template_name: str = "") -> str:
+    def generate_report(self, image_paths: List[str], template: Template, template_name: str = "", prior_report: Optional[str] = None) -> str:
         """
         Generate a complete ultrasound report from images using the specified template.
         Implements stateful conversation with persistent history across all LLM calls.
         Implements conditional prompting and few-shot learning for breast cases.
+        Supports prior report comparison when prior_report is provided.
 
         Args:
             image_paths: List of paths to processed/cleaned images
             template: Selected report template
             template_name: Name of the selected template (for conditional prompting)
+            prior_report: Optional prior report text for comparison
 
         Returns:
             Complete report text
@@ -298,10 +315,10 @@ Based on the provided examples, the cumulative summary of findings, and the repo
                 batch_images, current_summary, batch_num, total_batches, template_name
             )
 
-        logger.info("All image batches processed, generating final report")
+        logger.info("All image batches processed, generating final report" + (" with prior report comparison" if prior_report else ""))
 
-        # Generate final report with few-shot learning
-        final_prompt = self._create_final_report_prompt(current_summary, template, template_name)
+        # Generate final report with few-shot learning and optional prior report
+        final_prompt = self._create_final_report_prompt(current_summary, template, template_name, prior_report)
         final_message = {"role": "user", "content": final_prompt}
 
         # Add final prompt to persistent conversation history

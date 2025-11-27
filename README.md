@@ -336,6 +336,6 @@ Future enhancements:
 
 ---
 
-**Version**: 1.0.0  
-**Last Updated**: 2025-10-24  
+**Version**: 1.1  
+**Last Updated**: 2025-11-27  
 **Status**: Development
