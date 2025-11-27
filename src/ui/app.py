@@ -119,9 +119,10 @@ def main():
         ### How to use this application:
         
         1. **Upload ZIP files** containing DICOM ultrasound images
-        2. Click **"Start Processing"** to generate reports
-        3. Wait for processing to complete (progress bar will show status)
-        4. Review and copy the generated reports from the text areas below
+        2. (Optional) **Paste prior reports** into the text box next to the uploaded ZIP files
+        3. Click **"Start Processing"** to generate reports
+        4. Wait for processing to complete (progress bar will show status)
+        5. Review and copy the generated reports from the text areas below
         
         **Note:** Each ZIP file should contain a patient case with DICOM (.dcm) files organized in folders. (e.g. patient_name.zip => patient_name => Us_Breast_(Bilateral) - US23__USBREAST => US_BREAST_(BILATERAL)_1 => DICOM images)
         """)
