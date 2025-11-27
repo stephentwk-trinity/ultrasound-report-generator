@@ -189,7 +189,7 @@ INSTRUCTIONS:
 5. If a section has no relevant findings, indicate "No significant findings" or similar appropriate text
 6. Generate a professional, comprehensive medical report
 
-Based on the provided examples, the cumulative summary of findings, and the report template, generate a complete, narrative clinical report. Your response MUST strictly follow the structure, narrative style, and formatting of the examples. Do NOT use markdown formatting like bolding ('**') for emphasis. The output should be a clean plain-text document. Do NOT return JSON format - provide only the clean narrative text report."""
+Based on the provided examples, the cumulative summary of findings, and the report template, generate a complete, narrative clinical report. Your response MUST strictly follow the structure, sentence structure (e.g. if the examples wrote "Findings are likely benign and can represent mild changes of mammary duct ectasia.", reuse this sentence instead of reporting in other ways like "There is evidence of subareolar ductal ectasia."), narrative style, and formatting of the examples. Do NOT use markdown formatting like bolding ('**') for emphasis. The output should be a clean plain-text document. Do NOT return JSON format - provide only the clean narrative text report."""
 
     def process_images_batch(self, image_paths: List[str], current_summary: str,
                            batch_number: int, total_batches: int, template_name: str = "") -> str:

@@ -117,3 +117,28 @@ BI-RADS Category 2 for left breast; BI-RADS Category 3 for right breast. Suggest
 - Bilateral breast cysts (up to 0.6cm), benign. (BI-RADS 2)
 
 Thank you for your referral.
+
+
+Example 4:
+
+**ULTRASOUND OF BOTH BREASTS**
+
+**FINDINGS**
+Heterogeneous background echotexture.
+
+A simple anechoic cyst is noted at R5H, measuring 0.84cm.
+
+Mildly prominent lactiferous ducts are noted over the right breast subareolar region, measuring up to 0.32cm in calibre. No suspicious intra-ductal lesion is seen. Findings are likely benign and can represent mild changes of mammary duct ectasia.
+
+No focal mass is detected in the left breast.
+
+No overt distortion of the normal breast architecture is demonstrated.
+Nipples appear unremarkable and are not retracted.
+No suspicious axillary lymphadenopathy is seen in bilateral axillae.
+
+**COMMENTS**
+- Right breast cyst (0.84cm), benign. (BI-RADS 2)
+- Mildly prominent lactiferous ducts (up to 0.32cm) over the right breast subareolar region. Findings are likely benign and can represent mild changes of mammary duct ectasia. (BI-RADS 2)
+- No abnormality is seen in the left breast. (BI-RADS 1)
+
+Thank you for your referral.
