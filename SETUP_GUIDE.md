@@ -187,6 +187,15 @@ OPENROUTER_API_KEY=your_api_key_here
 # Optional: Your app name and URL for OpenRouter
 # OPENROUTER_APP_NAME=Ultrasound Report Generator
 # OPENROUTER_APP_URL=https://your-app-url.com
+
+# --- Google Sheets Audit Logging (for cloud deployment) ---
+# This is required for persistent audit trails on Streamlit Community Cloud.
+# 1. Create a Google Cloud Platform (GCP) project and enable the Google Sheets and Google Drive APIs.
+# 2. Create a service account and download its JSON key file.
+# 3. Share your target Google Sheet with the service account's email address.
+# 4. Paste the entire content of the JSON key file into this variable.
+# Example: GCP_SERVICE_ACCOUNT_JSON='{"type": "service_account", "project_id": ...}'
+GCP_SERVICE_ACCOUNT_JSON=
 ```
 
 ---

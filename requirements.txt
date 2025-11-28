@@ -29,6 +29,10 @@ loguru==0.7.2
 tqdm==4.67.1
 thefuzz==0.22.1
 
+# Google Sheets Integration (for audit logging)
+gspread==6.1.4
+google-auth==2.38.0
+
 # Data Handling
 pandas==2.3.3
 

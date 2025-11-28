@@ -1,6 +1,7 @@
-# Environment variables
+# Environment variables and secrets
 .env
 .env.template
+.streamlit/secrets.toml
 
 # Temporary and debug files
 temp/
