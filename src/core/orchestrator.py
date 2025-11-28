@@ -6,6 +6,7 @@ from datetime import datetime
 
 from src.core.config_manager import ConfigManager
 from src.utils.logger import LoggerManager
+from src.utils.audit_logger import AuditLogger
 from src.processors.dicom_processor import DicomProcessor
 from src.processors.phi_remover import PhiRemover
 from src.templates.template_manager import TemplateManager, TemplateSelector
@@ -135,19 +136,22 @@ class CaseOrchestrator:
         filename = f"Report_{patient_id}_{timestamp}.txt"
         return filename
 
-    def process_case(self, input_dir: str, prior_report: Optional[str] = None) -> Tuple[str, str, float]:
+    def process_case(self, input_dir: str, user: str = "anonymous", case_id: str = "", prior_report: Optional[str] = None) -> Tuple[str, str, float, int]:
         """
         Process a complete patient case from DICOM files to final report.
 
         Args:
             input_dir: Path to directory containing DICOM files
+            user: Username or identifier of the person initiating processing
+            case_id: Case identifier for audit logging (will be anonymized)
             prior_report: Optional prior report text for comparison
 
         Returns:
-            Tuple of (report_path, patient_name, duration)
+            Tuple of (report_path, patient_name, duration, llm_calls)
             - report_path: Path to the generated report file
             - patient_name: Name/identifier of the patient
             - duration: Processing time in seconds
+            - llm_calls: Number of LLM API calls made
 
         Raises:
             Exception: If any step in the processing fails
@@ -161,6 +165,20 @@ class CaseOrchestrator:
             raise FileNotFoundError(f"Input directory not found: {input_dir}")
 
         logger.info(f"Starting case processing for: {input_path}")
+        
+        # Initialize audit logger
+        audit_logger = AuditLogger()
+        
+        # Use provided case_id or derive from input directory name
+        if not case_id:
+            case_id = input_path.name
+        
+        # Initialize variables for audit logging
+        status = "FAILURE"
+        llm_calls = 0
+        duration = 0.0
+        report_path = ""
+        patient_name = ""
 
         try:
             # Step 1: Get output directories
@@ -221,7 +239,7 @@ class CaseOrchestrator:
 
             # Step 5: Generate report
             logger.info("Step 4: Generating report using LLM" + (" with prior report comparison" if prior_report else ""))
-            report_text = self.report_generator.generate_report(
+            report_text, llm_calls = self.report_generator.generate_report(
                 cleaned_image_paths,
                 template,
                 template.name,
@@ -245,12 +263,26 @@ class CaseOrchestrator:
 
             # Extract patient name
             patient_name = input_path.name
+            
+            # Mark as successful
+            status = "SUCCESS"
 
-            return str(report_path), patient_name, duration
+            return str(report_path), patient_name, duration, llm_calls
 
         except Exception as e:
             logger.error(f"Case processing failed: {e}")
+            duration = time.time() - start_time
             raise
+        
+        finally:
+            # Always log the case processing attempt
+            audit_logger.log_case(
+                user=user,
+                case_id=case_id,
+                status=status,
+                llm_calls=llm_calls,
+                duration=duration
+            )
 
     def cleanup_temp_files(self, case_output_dir: Optional[Path] = None) -> None:
         """

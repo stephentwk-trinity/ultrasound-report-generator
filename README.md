@@ -336,6 +336,8 @@ Future enhancements:
 
 ---
 
-**Version**: 1.1  
-**Last Updated**: 2025-11-27  
+**App Version**: 1.2
+**Last Updated**: 2025-11-28
+**Prompt Version**: 1.1
+**Last Updated**: 2025-11-27
 **Status**: Development

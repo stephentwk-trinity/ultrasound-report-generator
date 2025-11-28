@@ -49,6 +49,9 @@ class ReportGenerator:
 
         # Initialize persistent conversation history
         self.conversation_history = []
+        
+        # Counter for LLM API calls (for audit logging)
+        self.llm_call_count = 0
 
         logger.info("ReportGenerator initialized")
 
@@ -245,6 +248,7 @@ Based on the provided examples, the cumulative summary of findings, the report t
 
         try:
             # Generate response using persistent conversation history
+            self.llm_call_count += 1
             response = self.llm_client.generate_response(
                 messages=self.conversation_history,
                 model=self.config.llm.model,
@@ -271,7 +275,7 @@ Based on the provided examples, the cumulative summary of findings, the report t
             # Return current summary unchanged on error
             return current_summary
 
-    def generate_report(self, image_paths: List[str], template: Template, template_name: str = "", prior_report: Optional[str] = None) -> str:
+    def generate_report(self, image_paths: List[str], template: Template, template_name: str = "", prior_report: Optional[str] = None) -> tuple:
         """
         Generate a complete ultrasound report from images using the specified template.
         Implements stateful conversation with persistent history across all LLM calls.
@@ -285,7 +289,9 @@ Based on the provided examples, the cumulative summary of findings, the report t
             prior_report: Optional prior report text for comparison
 
         Returns:
-            Complete report text
+            Tuple of (report_text, llm_call_count):
+            - report_text: Complete report text
+            - llm_call_count: Number of LLM API calls made during generation
         """
         if not image_paths:
             raise ValueError("No images provided for report generation")
@@ -295,6 +301,9 @@ Based on the provided examples, the cumulative summary of findings, the report t
             template_name = template.name
             
         logger.info(f"Starting report generation with {len(image_paths)} images using template: {template_name}")
+
+        # Reset LLM call counter for this report generation
+        self.llm_call_count = 0
 
         # Initialize persistent conversation history with system prompt
         self.conversation_history = [
@@ -326,6 +335,7 @@ Based on the provided examples, the cumulative summary of findings, the report t
 
         try:
             # Generate final report using complete conversation history
+            self.llm_call_count += 1
             report_text = self.llm_client.generate_response(
                 messages=self.conversation_history,
                 model=self.config.llm.model,
@@ -333,10 +343,10 @@ Based on the provided examples, the cumulative summary of findings, the report t
                 temperature=self.config.llm.temperature
             )
 
-            logger.info("Report generation completed successfully")
+            logger.info(f"Report generation completed successfully with {self.llm_call_count} LLM calls")
             logger.debug(f"Final conversation history had {len(self.conversation_history)} messages")
             
-            return report_text
+            return report_text, self.llm_call_count
 
         except Exception as e:
             logger.error(f"Failed to generate final report: {e}")
